@@ -1,0 +1,4 @@
+interface:
+  display_name: "CFDAgentBio"
+  short_description: "Discuss biological flow problems, plan simplifications, and compare with experiments"
+  default_prompt: "Use $cfdagentbio to discuss this biological flow problem, decide what to simplify, and continue as needed."

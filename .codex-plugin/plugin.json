@@ -1,0 +1,46 @@
+{
+  "name": "cfdagentbio",
+  "version": "0.1.0",
+  "description": "A conversational CFD companion for biological flows: flows around, inside or driven by living systems.",
+  "author": {
+    "name": "Zhaoyue Xu"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "CFDAgentBio",
+    "shortDescription": "CFD for biological flows",
+    "longDescription": "CFDAgentBio helps researchers work through CFD for biological flows in conversation: flows around, inside or driven by living systems. Start from whatever you have, whether that is measured data, values from a publication, or a description in words.\n\nOn top of the full CFDAgent guidance for general CFD work, it adds three short references that the host loads as needed: what to simplify and what a computation will cost, how to handle inputs that come from measurement, and how to compare a result with experiments. It follows the current task and evidence rather than a fixed sequence, says which assumptions it made instead of silently filling in missing data, and states plainly when a problem is beyond its current scope.\n\nThe solver map is the CFDAgent one with WaterLily and WABBIT added: OpenFOAM, SU2, FDS, DualSPHysics, code_saturne, Basilisk, Nek5000/nekRS, Palabos, OpenLB, Nektar++, PyFR, WaterLily, WABBIT, and PyIB. Solver choice depends on the problem and the available evidence.\n\nActual simulations require host tools that can access the project and execute commands, a suitable solver, and the necessary compute environment. The plugin does not bundle solvers, conversion scripts, a hosted computation service, or an MCP server.\n\nDeveloped by Zhaoyue Xu, Experimental Zoology Group, Wageningen University & Research (WUR), Netherlands.",
+    "developerName": "Zhaoyue Xu",
+    "category": "Education & Research",
+    "capabilities": [
+      "Simplification and cost",
+      "Measured inputs",
+      "Comparison with experiments",
+      "Solver selection",
+      "Case setup",
+      "Result validation"
+    ],
+    "defaultPrompt": [
+      "I have measured geometry and motion for a living system. Discuss with me how to compute the flow first.",
+      "My computed force does not match the experiment. Help me find where the difference comes from.",
+      "Estimate what can be simplified and how much computing this biological flow case will need."
+    ],
+    "brandColor": "#0B2236",
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "websiteURL": "https://github.com/XuZhaoyue1995/CFDAgentBio",
+    "supportURL": "https://github.com/XuZhaoyue1995/CFDAgentBio/issues",
+    "privacyPolicyURL": "https://github.com/XuZhaoyue1995/CFDAgentBio/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/XuZhaoyue1995/CFDAgentBio/blob/main/TERMS.md"
+  },
+  "keywords": [
+    "cfd",
+    "fluid-mechanics",
+    "biological-flows",
+    "simulation",
+    "validation"
+  ],
+  "homepage": "https://github.com/XuZhaoyue1995/CFDAgentBio",
+  "repository": "https://github.com/XuZhaoyue1995/CFDAgentBio",
+  "license": "CC-BY-4.0"
+}

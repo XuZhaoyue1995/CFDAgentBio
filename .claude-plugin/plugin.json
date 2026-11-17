@@ -1,0 +1,22 @@
+{
+  "name": "cfdagentbio",
+  "displayName": "CFDAgentBio",
+  "version": "0.1.0",
+  "description": "A CFD companion for biological flows: flows around, inside or driven by living systems. Includes the full CFDAgent guidance for general CFD work.",
+  "author": {
+    "name": "Zhaoyue Xu"
+  },
+  "homepage": "https://github.com/XuZhaoyue1995/CFDAgentBio",
+  "repository": "https://github.com/XuZhaoyue1995/CFDAgentBio",
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "cfd",
+    "computational-fluid-dynamics",
+    "fluid-mechanics",
+    "biological-flows",
+    "biofluid-mechanics",
+    "simulation",
+    "research"
+  ],
+  "skills": "./skills/"
+}
